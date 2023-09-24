@@ -3,7 +3,7 @@ let
 in
   pkgs.mkShell {
     packages = [
-      pkgs.python3
+      pkgs.python311
       pkgs.curl
     ];
   env = {
