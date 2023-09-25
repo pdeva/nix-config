@@ -7,6 +7,7 @@ in
       pkgs.curl
       pkgs.htop
       pkgs.git
+      pkgs.go
     ];
   env = {
       ENV="local";
@@ -18,5 +19,6 @@ in
     echo "git:  $(git  --version)"
     echo "htop: $(htop --version)"
     echo "python: $(python --version)"
+    echo "go: $(go version)"
   '';
 }
