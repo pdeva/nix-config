@@ -23,5 +23,6 @@ in
     echo "python: $(python --version)"
     echo "go: $(go version)"
     echo "cargo: $(cargo version)"
+    echo "clang: $(clang --version)"
   '';
 }
