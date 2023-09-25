@@ -7,7 +7,7 @@ in
       pkgs.curl
       pkgs.htop
       pkgs.git
-      pkgs.go
+      pkgs.go_1_21
     ];
   env = {
       ENV="local";
