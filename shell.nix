@@ -8,6 +8,8 @@ in
       pkgs.htop
       pkgs.git
       pkgs.go_1_21
+      pkgs.cargo
+      pkgs.llvmPackages_16.stdenv
     ];
   env = {
       ENV="local";
@@ -20,5 +22,6 @@ in
     echo "htop: $(htop --version)"
     echo "python: $(python --version)"
     echo "go: $(go version)"
+    echo "cargo: $(cargo version)"
   '';
 }
