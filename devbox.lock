@@ -1,0 +1,38 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "cargo@latest": {
+      "last_modified": "2023-09-19T14:14:51Z",
+      "resolved": "github:NixOS/nixpkgs/8b5ab8341e33322e5b66fb46ce23d724050f6606#cargo",
+      "source": "devbox-search",
+      "version": "1.72.0"
+    },
+    "curl": {
+      "resolved": "github:NixOS/nixpkgs/f80ac848e3d6f0c12c52758c0f25c10c97ca3b62#curl",
+      "source": "nixpkg"
+    },
+    "git@latest": {
+      "last_modified": "2023-09-19T14:14:51Z",
+      "resolved": "github:NixOS/nixpkgs/8b5ab8341e33322e5b66fb46ce23d724050f6606#git",
+      "source": "devbox-search",
+      "version": "2.42.0"
+    },
+    "go@1.21": {
+      "last_modified": "2023-09-19T14:14:51Z",
+      "resolved": "github:NixOS/nixpkgs/8b5ab8341e33322e5b66fb46ce23d724050f6606#go_1_21",
+      "source": "devbox-search",
+      "version": "1.21.1"
+    },
+    "htop": {
+      "resolved": "github:NixOS/nixpkgs/f80ac848e3d6f0c12c52758c0f25c10c97ca3b62#htop",
+      "source": "nixpkg"
+    },
+    "python@3.11": {
+      "last_modified": "2023-09-19T14:14:51Z",
+      "plugin_version": "0.0.1",
+      "resolved": "github:NixOS/nixpkgs/8b5ab8341e33322e5b66fb46ce23d724050f6606#python311",
+      "source": "devbox-search",
+      "version": "3.11.4"
+    }
+  }
+}
