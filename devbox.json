@@ -1,24 +1,29 @@
 {
   "packages": [
-      "python@3.11",
-      "go@1.21",
-      "curl@latest",
-      "htop@latest",
-      "cargo@latest",
-      "git@latest",
-      "bazelisk@latest",
-
+    "python@3.11",
+    "go@1.21",
+    "curl@latest",
+    "htop@latest",
+    "cargo@latest",
+    "git@latest",
+    "bazelisk@latest",
+    "ripgrep@latest",
+    "jdk19_headless@latest",
+    "terraform@latest",
+    "neovim@latest"
   ],
   "shell": {
     "init_hook": [
-
-
-    "echo \"python: $(python --version)\"",
-    "echo \"go: $(go version)\"",
-    "echo \"htop: $(htop --version)\"",
-    "echo \"cargo: $(cargo version)\"",
-    "echo \"git: $(git --version)\"",
-    "echo 'Welcome to devbox!' > /dev/null"
+      "echo \"python: $(python --version)\"",
+      "echo \"go: $(go version)\"",
+      "echo \"htop: $(htop --version)\"",
+      "echo \"cargo: $(cargo version)\"",
+      "echo \"git: $(git --version)\"",
+      "echo \"bazelisk: $(bazelisk --version)\"",
+      "echo \"ripgrep: $(rg --version)\"",
+      "echo \"$(terraform --version)\"",
+      "echo \"$(java -version)\"",
+      "echo \"$(nvim -version)\""
     ],
     "scripts": {
       "test": [
