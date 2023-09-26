@@ -1,15 +1,23 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "bazelisk@latest": {
+      "last_modified": "2023-09-19T14:14:51Z",
+      "resolved": "github:NixOS/nixpkgs/8b5ab8341e33322e5b66fb46ce23d724050f6606#bazelisk",
+      "source": "devbox-search",
+      "version": "1.18.0"
+    },
     "cargo@latest": {
       "last_modified": "2023-09-19T14:14:51Z",
       "resolved": "github:NixOS/nixpkgs/8b5ab8341e33322e5b66fb46ce23d724050f6606#cargo",
       "source": "devbox-search",
       "version": "1.72.0"
     },
-    "curl": {
-      "resolved": "github:NixOS/nixpkgs/f80ac848e3d6f0c12c52758c0f25c10c97ca3b62#curl",
-      "source": "nixpkg"
+    "curl@latest": {
+      "last_modified": "2023-09-19T14:14:51Z",
+      "resolved": "github:NixOS/nixpkgs/8b5ab8341e33322e5b66fb46ce23d724050f6606#curl",
+      "source": "devbox-search",
+      "version": "8.2.1"
     },
     "git@latest": {
       "last_modified": "2023-09-19T14:14:51Z",
@@ -23,9 +31,23 @@
       "source": "devbox-search",
       "version": "1.21.1"
     },
-    "htop": {
-      "resolved": "github:NixOS/nixpkgs/f80ac848e3d6f0c12c52758c0f25c10c97ca3b62#htop",
-      "source": "nixpkg"
+    "htop@latest": {
+      "last_modified": "2023-09-19T14:14:51Z",
+      "resolved": "github:NixOS/nixpkgs/8b5ab8341e33322e5b66fb46ce23d724050f6606#htop",
+      "source": "devbox-search",
+      "version": "3.2.2"
+    },
+    "jdk19_headless@latest": {
+      "last_modified": "2023-09-19T14:14:51Z",
+      "resolved": "github:NixOS/nixpkgs/8b5ab8341e33322e5b66fb46ce23d724050f6606#jdk19_headless",
+      "source": "devbox-search",
+      "version": "19.0.2+7"
+    },
+    "neovim@latest": {
+      "last_modified": "2023-09-19T14:14:51Z",
+      "resolved": "github:NixOS/nixpkgs/8b5ab8341e33322e5b66fb46ce23d724050f6606#neovim",
+      "source": "devbox-search",
+      "version": "0.9.2"
     },
     "python@3.11": {
       "last_modified": "2023-09-19T14:14:51Z",
@@ -33,6 +55,18 @@
       "resolved": "github:NixOS/nixpkgs/8b5ab8341e33322e5b66fb46ce23d724050f6606#python311",
       "source": "devbox-search",
       "version": "3.11.4"
+    },
+    "ripgrep@latest": {
+      "last_modified": "2023-09-19T14:14:51Z",
+      "resolved": "github:NixOS/nixpkgs/8b5ab8341e33322e5b66fb46ce23d724050f6606#ripgrep",
+      "source": "devbox-search",
+      "version": "13.0.0"
+    },
+    "terraform@latest": {
+      "last_modified": "2023-09-19T14:14:51Z",
+      "resolved": "github:NixOS/nixpkgs/8b5ab8341e33322e5b66fb46ce23d724050f6606#terraform",
+      "source": "devbox-search",
+      "version": "1.5.7"
     }
   }
 }
