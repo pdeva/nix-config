@@ -16,13 +16,10 @@
     "init_hook": [
       "echo \"python: $(python --version)\"",
       "echo \"go: $(go version)\"",
-      "echo \"htop: $(htop --version)\"",
       "echo \"cargo: $(cargo version)\"",
       "echo \"git: $(git --version)\"",
       "echo \"bazelisk: $(bazelisk --version)\"",
       "echo \"ripgrep: $(rg --version)\"",
-      "echo \"$(terraform --version)\"",
-      "echo \"$(java -version)\"",
       "echo \"$(nvim -version)\""
     ],
     "scripts": {
