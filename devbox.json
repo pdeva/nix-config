@@ -10,17 +10,13 @@
     "ripgrep@latest",
     "jdk19_headless@latest",
     "terraform@latest",
-    "neovim@latest"
+    "neovim@latest",
+    "fd@latest",
+    "clang_16@latest",
+    "stdenv@latest"
   ],
   "shell": {
     "init_hook": [
-      "echo \"python: $(python --version)\"",
-      "echo \"go: $(go version)\"",
-      "echo \"cargo: $(cargo version)\"",
-      "echo \"git: $(git --version)\"",
-      "echo \"bazelisk: $(bazelisk --version)\"",
-      "echo \"ripgrep: $(rg --version)\"",
-      "echo \"$(nvim -version)\""
     ],
     "scripts": {
       "test": [
