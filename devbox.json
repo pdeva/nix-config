@@ -13,7 +13,8 @@
     "neovim@latest",
     "fd@latest",
     "clang_16@latest",
-    "stdenv@latest"
+    "stdenv@latest",
+    "gcc@latest"
   ],
   "shell": {
     "init_hook": [
